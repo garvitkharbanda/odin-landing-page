@@ -129,3 +129,41 @@ h2{
   font-weight: 900;
 }
 
+.testimonial{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #e5e7eb;
+
+}
+
+.testimonial .container{
+  justify-content: center;
+}
+
+
+.testimonial-content{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 800px;
+
+
+}
+
+.quote{
+  margin: 0;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote-by{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: end;
+  margin: 0;
+  padding: 0;
+}
+
